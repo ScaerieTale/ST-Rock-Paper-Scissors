@@ -18,5 +18,12 @@ while play == 'y':
             print("Tie game!")
         elif rng == 3:
             print("Scissors cuts paper!")
+    elif player == 's' or 'scissors':
+        if rng == 1:
+            print("Rock smashes scissors!")
+        elif rng == 2:
+            print("Scissors cuts paper!")
+        elif rng == 3:
+            print("Tie game!")
     play = input("Play again? (y/n ")
     
